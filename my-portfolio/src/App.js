@@ -1,10 +1,25 @@
 import './App.css';
+import About from "./components/about/About";
+import Home from "./components/home/Home";
+import Navbar from "./components/navbar/Navbar";
+import Skills from "./components/skills/Skills";
+import Projects from "./components/projects/Projects";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
+import Calender from "./components/github/Calender";
 
-function App() {
+function App () {
   return (
     <div className="App">
-    helllo my name is khan
-     </div>
+      <Navbar />
+      <Home />
+      {/* <About />
+      <Skills />
+      <Calender />
+      <Projects />
+      <Contact />
+      <Footer /> */}
+    </div>
   );
 }
 

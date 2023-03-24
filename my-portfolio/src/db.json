@@ -1,0 +1,220 @@
+{
+    "language_framework": [
+     {
+      "id": "1",
+      "title": "HTML",
+      "src": "https://www.svgrepo.com/show/473654/html5.svg"
+     },
+     {
+      "id": "2",
+      "title": "CSS",
+      "src": "https://www.svgrepo.com/show/473577/css3.svg"
+     },
+     {
+      "id": "3",
+      "title": "JavaScript",
+      "src": "https://www.svgrepo.com/show/508924/js02.svg"
+     },
+     {
+      "id": "4",
+      "title": "React Js",
+      "src": "https://www.svgrepo.com/show/342156/react.svg"
+     },
+     {
+      "id": "5",
+      "title": "Chakra UI",
+      "src": "https://img.icons8.com/fluency-systems-regular/512/chakra-ui.png"
+     },
+     {
+      "id": "6",
+      "title": "Redux",
+      "src": "https://www.svgrepo.com/show/306657/redux.svg"
+     },
+     {
+      "id": "7",
+      "title": "TypeScript",
+      "src": "https://www.svgrepo.com/show/369021/typescript.svg"
+     }
+     ,
+     {
+      "id": "8",
+      "title": "Next Js",
+      "src": "https://www.svgrepo.com/show/342062/next-js.svg"
+     }
+     ,
+     {
+      "id": "9",
+      "title": "Node Js",
+      "src": "https://www.svgrepo.com/show/445914/node-js.svg"
+     }
+     ,
+     {
+      "id": "10",
+      "title": "MongoDB",
+      "src": "https://www.svgrepo.com/show/342044/mongodb.svg"
+     }
+     ,
+     {
+      "id": "11",
+      "title": "Express Js",
+      "src": "https://www.svgrepo.com/show/330398/express.svg"
+     }
+   
+   
+    ],
+    "tools": [
+     {
+      "id": "t1",
+      "title": "VS Code",
+      "src": "https://www.svgrepo.com/show/424927/vs-code-logo-microsoft.svg"
+     },
+     {
+      "id": "t2",
+      "title": "GitHub",
+      "src": "https://www.svgrepo.com/show/473620/github.svg"
+     },
+     {
+      "id": "t3",
+      "title": "Netlify",
+      "src": "https://www.svgrepo.com/show/306463/netlify.svg"
+     },
+     {
+      "id": "t4",
+      "title": "Postman",
+      "src": "https://www.svgrepo.com/show/306590/postman.svg"
+     },
+     {
+      "id": "t5",
+      "title": "Vercel",
+      "src": "https://www.svgrepo.com/show/327408/logo-vercel.svg"
+     }
+     ,
+     {
+      "id": "t6",
+      "title": "Codepen",
+      "src": "https://www.svgrepo.com/show/313739/codepen.svg"
+     }
+    ],
+    "projects": [
+     {
+      "id": "p1",
+      "image": "",
+      "title": "",
+      "description": "Homedecor is an e-commerce platform that offers a wide range of home decor products. User-friendly interface, easy browsing, filtering and payment options. Built with React, and json server.",
+      "tech_stack": [
+       {
+        "id": "t1",
+        "title": "React",
+        "src": "https://lh6.googleusercontent.com/fXw1iHarB3XhTJGG3I4dty4bkmZeI0b_99ns5PvOwHYVhNJFh63biABfNIxB8D_0zpY=w2400"
+       },
+       {
+        "id": "t2",
+        "title": "Chakra UI",
+        "src": "https://lh3.googleusercontent.com/sorkqLEqIwFlWRlnTcZoEXqWls90FK-Sr2SqVqqk0nxaytIUTad0_99v0deP-EhaNEY=w2400"
+       },
+       {
+        "id": "t3",
+        "title": "Redux",
+        "src": "https://lh5.googleusercontent.com/fIY8_nCkUbVDqzQA_RNU_H7u6X3hKQB9hm89AoK_6R4s3nGcUqLiK5UEJaNBlOksqVI=w2400"
+       },
+       {
+        "id": "t4",
+        "src": "https://lh3.googleusercontent.com/1ZPUcY76TcoA-qYiCXERe4lTj6FoJgXDR_5_-aFYI78tXYGUp5hmLxJdlbgnbh_lpHg=w2400",
+        "title": "JavaScript"
+       },
+       {
+        "id": "t5",
+        "src": "https://lh5.googleusercontent.com/NNYMLTcl7nPRNkNErJz17gHsCD8KsXkHGmuXyxwdftUB9QURREAPClWjk7YCLKd_jKs=w2400",
+        "title": "HTML"
+       },
+       {
+        "id": "t6",
+        "src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400",
+        "title": "CSS"
+       }
+      ],
+      "github": "",
+      "deploy": ""
+     },
+     {
+      "id": "p2",
+      "image": "",
+      "title": "",
+      "description": " is a cloud-based survey application that assists users in the creation, distribution, and analysis of surveys. To boost response rates, users can send surveys to respondents and publish them on their websites and social media accounts.",
+      "tech_stack": [
+       {
+        "id": "t1",
+        "src": "https://lh3.googleusercontent.com/1ZPUcY76TcoA-qYiCXERe4lTj6FoJgXDR_5_-aFYI78tXYGUp5hmLxJdlbgnbh_lpHg=w2400",
+        "title": "JavaScript"
+       },
+       {
+        "id": "t2",
+        "src": "https://lh5.googleusercontent.com/NNYMLTcl7nPRNkNErJz17gHsCD8KsXkHGmuXyxwdftUB9QURREAPClWjk7YCLKd_jKs=w2400",
+        "title": "HTML"
+       },
+       {
+        "id": "t3",
+        "src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400",
+        "title": "CSS"
+       },
+       {
+        "id": "t4",
+        "src": "https://lh3.googleusercontent.com/hRjs11EL5wRR-PcNyPg0356k0v9iaot_BovbhUV3MVOiqdvUjfHiT1Tvg1Lpu-D9e4U=w2400",
+        "title": "JSON"
+       }
+      ],
+      "github": "",
+      "deploy": ""
+     },
+     {
+      "id": "p3",
+      "image": "",
+      "title": "",
+      "description": "is a fitness company which provide membership to track the health of a user and best trainers, gyms & coaches all in one app.",
+      "tech_stack": [
+       {
+        "id": "t1",
+        "src": "https://lh3.googleusercontent.com/1ZPUcY76TcoA-qYiCXERe4lTj6FoJgXDR_5_-aFYI78tXYGUp5hmLxJdlbgnbh_lpHg=w2400",
+        "title": "JavaScript"
+       },
+       {
+        "id": "t2",
+        "src": "https://lh5.googleusercontent.com/NNYMLTcl7nPRNkNErJz17gHsCD8KsXkHGmuXyxwdftUB9QURREAPClWjk7YCLKd_jKs=w2400",
+        "title": "HTML"
+       },
+       {
+        "id": "t3",
+        "src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400",
+        "title": "CSS"
+       }
+      ],
+      "github": "",
+      "deploy": ""
+     },
+     {
+      "id": "p4",
+      "image": "",
+      "title": "",
+      "description": "This application allows users to search for  videos and play them within the app. The app also has sorting functionality, allowing users to sort videos by views, alphabetically, and popularity.",
+      "tech_stack": [
+       {
+        "id": "t1",
+        "src": "https://lh3.googleusercontent.com/1ZPUcY76TcoA-qYiCXERe4lTj6FoJgXDR_5_-aFYI78tXYGUp5hmLxJdlbgnbh_lpHg=w2400",
+        "title": "JavaScript"
+       },
+       {
+        "id": "t2",
+        "src": "https://lh5.googleusercontent.com/NNYMLTcl7nPRNkNErJz17gHsCD8KsXkHGmuXyxwdftUB9QURREAPClWjk7YCLKd_jKs=w2400",
+        "title": "HTML"
+       },
+       {
+        "id": "t3",
+        "src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400",
+        "title": "CSS"
+       }
+      ],
+      "github": "",
+      "deploy": ""
+     }
+    ]
+   }
