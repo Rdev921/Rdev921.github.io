@@ -1,4 +1,4 @@
-// import "./skills.css";
+import "./skills.css";
 import TechStack from "./TechStack";
 import data from "../../db.json";
 

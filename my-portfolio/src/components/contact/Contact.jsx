@@ -1,4 +1,4 @@
-// import "./contact.css";
+import "./contact.css";
 import { SiGmail } from "react-icons/si";
 import { IoMdCall } from "react-icons/io";
 import { MdLocationOn } from "react-icons/md";

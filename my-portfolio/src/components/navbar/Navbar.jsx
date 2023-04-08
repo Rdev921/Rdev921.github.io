@@ -1,4 +1,4 @@
-// import "./navbar.css";
+import "./navbar.css";
 import { Link } from "react-scroll";
 import { HiDownload } from "react-icons/hi";
 import { RxHamburgerMenu } from "react-icons/rx";
@@ -22,9 +22,9 @@ function Navbar() {
     <div id="nav-menu" className="navbar">
       <div className="wrapper">
         <div className="wrapperLeft">
-          <Link to="home" smooth={true} offset={-50} duration={500}>
+          {/* <Link to="home" smooth={true} offset={-50} duration={500}>
             <img src="./logo.png" alt="icon" />
-          </Link>
+          </Link> */}
         </div>
         <div className="wrapperRight">
           <div>
@@ -95,14 +95,14 @@ function Navbar() {
           </div>
           <div>
             <a
-              href="https://drive.google.com/uc?id=1OT-kgHq6aB7NFX32qP5AJUISBtMEM8jw&export=download"
+              href="https://drive.google.com/file/d/1cDaJNw_WaXS3zt0xkyOmiOeP99g91nY0&export=download"
               className="nav-link resume"
               id="resume-link-1"
             >
               <div
                 onClick={() =>
                   openLink(
-                    "https://drive.google.com/file/d/1OT-kgHq6aB7NFX32qP5AJUISBtMEM8jw/view?usp=share_link"
+                    "https://drive.google.com/file/d/1cDaJNw_WaXS3zt0xkyOmiOeP99g91nY0/view?usp=sharing"
                   )
                 }
                 className="navbar-resume"

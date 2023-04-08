@@ -1,7 +1,7 @@
 import React from "react";
 // import GitHubCalendar from "react-github-calendar";
 import { Tooltip } from 'react-tooltip'
-// import "./calender.css";
+import "./calender.css";
 
 function Calender() {
   const selectLast12Months = (contributions) => {

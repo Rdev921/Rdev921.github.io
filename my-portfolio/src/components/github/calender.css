@@ -1,0 +1,57 @@
+.github-main {
+    /* border: 1px solid red; */
+    background-color: #e0eff8;
+    padding: 2px 0px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .github-heading {
+    font-size: 40px;
+  }
+  
+  .github-stats {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2%;
+    width: 75%;
+  }
+  
+  /* meidum screens */
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    .github-calender {
+      width: 90%;
+      height: auto;
+    }
+  
+    .github-stats {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+    }
+  }
+  
+  /* small screens */
+  @media all and (min-width: 280px) and (max-width: 767px) {
+    .github-calender {
+      width: 90%;
+      height: auto;
+    }
+  
+    .github-stats {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+    }
+  }

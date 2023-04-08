@@ -1,0 +1,104 @@
+.skills-main {
+    background-color: #e0eff8;
+    /* border: 1px solid green; */
+    padding-bottom: 25px;
+  
+  
+  }
+  
+  .skillsWrapper {
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    display: grid;
+  }
+  
+  .skills-heading {
+    font-size: 40px;
+  }
+  
+  .skillsTechnologiesDiv {
+    /* border: 1px solid green; */
+    margin: auto;
+    display: grid;
+    justify-content: space-between;
+    gap: 20px 0px ;
+    padding: 20px 0px;
+  }
+  
+  .skillsToolsDiv {
+    /* border: 1px solid rgb(161, 21, 255); */
+    margin: auto;
+    display: grid;
+    justify-content: space-between;
+    gap: 20px 0px;
+    padding: 20px 0px;
+  }
+  
+  
+  @media all and (min-width: 280px) and (max-width: 767px) {
+    .skillsWrapper {
+   width: 75%;
+      display: grid;
+      justify-content: center;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .skillsTechnologiesDiv {
+  
+      gap: 20px;
+      grid-template-columns: repeat(3, auto);
+    }
+  
+    .skillsToolsDiv {
+      gap: 20px;
+      grid-template-columns: repeat(3, auto);
+    }
+  }
+  
+  /* meidum screens */
+  @media all and (min-width: 768px) and (max-width: 1023px) {
+    .skillsWrapper {
+      justify-content: center;
+  
+      display: grid;
+      
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .skillsTechnologiesDiv {
+      gap: 20px;
+  
+      grid-template-columns: repeat(4, auto);
+    }
+  
+    .skillsToolsDiv {
+      gap: 20px;
+  
+      grid-template-columns: repeat(4, auto);
+    }
+  }
+  
+  /* small screens */
+  
+  @media all and (min-width: 1024px) and (max-width: 1470px) {
+    .skillsWrapper {
+      justify-content: center;
+         
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .skillsTechnologiesDiv {
+      gap: 20px;
+  
+      grid-template-columns: repeat(6, auto);
+    }
+  
+    .skillsToolsDiv {
+      gap: 20px;
+  
+      grid-template-columns: repeat(6, auto);
+    }
+  }

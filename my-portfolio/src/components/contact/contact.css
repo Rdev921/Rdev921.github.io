@@ -1,0 +1,89 @@
+.contact-main {
+    background-color: #e0eff8;
+    padding: 40px 0px 60px 0px;
+  }
+  /* heading wrapper css */
+  .headingwrapper {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .contactheading {
+    color: #1a1a1a;
+    font-size: 40px;
+  }
+  
+  .headingwrapperDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .headingwrapperDivRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: left;
+    color: #1a1a1a;
+    font-size: 20px;
+    width: min-content;
+  }
+  
+  .headingwrapperDivRight > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+  }
+  
+  .contact-socialLink {
+    width: 40%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  .contact-socialLink img {
+    width: 38%;
+    cursor: pointer;
+  }
+  
+  .contact-socialLink img:hover {
+    transform: scale(1.2);
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+  
+  /* meidum screens */
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    .headingwrapper {
+      width: 80%;
+    }
+  }
+  
+  /* small screens */
+  @media all and (min-width: 280px) and (max-width: 767px) {
+    .headingwrapper {
+      width: 90%;
+    }
+  
+    .headingwrapperDiv {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .headingwrapperDivLeft {
+      display: none;
+    }
+  }

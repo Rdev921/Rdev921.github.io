@@ -1,0 +1,180 @@
+.projects-projects {
+    /* border: 1px solid red; */
+    background-color: #e0eff8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .projects-container {
+    /* border: 1px solid blue; */
+    padding: 5px 0px 5px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .projects-heading {
+    /* border: 1px solid blue; */
+  
+    font-size: 40px;
+  }
+  
+  /* ----------------------------- */
+  
+  .project-card {
+    /* border: 1px solid blue; */
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .project-card-container {
+    /* border: 1px solid rgb(241, 78, 24); */
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+  
+  .project-card-container > div:nth-child(1) {
+    border: 1px solid rgb(51, 15, 207);
+    padding: 10px ;
+  
+    align-items: center;
+    display: grid;
+    width: 50%;
+    border-radius: 8px;
+    border-radius: 20px;
+  }
+  
+  .project-card-container > div:nth-child(1) > img {
+    border: 1px solid rgb(51, 15, 207);
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+  }
+  
+  .project-card-text {
+    border: 1px solid blue;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+  }
+  
+  .project-title {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .project-description {
+    font-size: 20px;
+    text-align: justify;
+  }
+  
+  .project-tech-stack {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .project-skills-card {
+    text-align: center;
+    padding: 2px 4px;
+  }
+  
+  .project-tech-stack img {
+    width: 30px;
+    display: block;
+    margin: auto;
+  }
+  
+  .project-card-btn {
+    /* border: 1px solid red; */
+  
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .project-card-btn div {
+    /* border: 1px solid rgb(48, 231, 188); */
+    font-size: 20px;
+    font-style: normal;
+    padding: 6px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: linear-gradient(to right, #000000, #434343);
+    color: white;
+  }
+  
+  .project-card-btn div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .project-card-btn div:hover {
+    background: linear-gradient(45deg, #434343, #000000);
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    color: white;
+  }
+  
+  /* meidum screens */
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    .project-card {
+      width: 90%;
+    }
+  
+    .project-tech-stack p {
+      display: none;
+    }
+  
+    .project-card-btn {
+      width: 100%;
+    }
+  }
+  
+  /* small screens */
+  @media all and (min-width: 280px) and (max-width: 767px) {
+    .project-card {
+      width: 90%;
+    }
+  
+    .project-card-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    .project-card-container > div:nth-child(1) {
+      width: 100%;
+    }
+  
+    .project-card-text {
+      width: 100%;
+    }
+  
+    .project-title {
+      margin-top: 20px;
+    }
+  
+    .project-tech-stack p {
+      display: none;
+    }
+  
+    .project-card-btn {
+      width: 100%;
+      align-items: center;
+    }
+  }

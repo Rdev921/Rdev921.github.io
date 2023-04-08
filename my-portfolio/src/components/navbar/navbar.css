@@ -1,0 +1,148 @@
+
+.navbar {
+    width: 100%;
+    background-color: rgb(34, 33, 33);
+    position: fixed;
+    z-index: 100;
+    font-size: 18px;
+    height: 50px;
+    color: white;
+  }
+  
+  .wrapper {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .wrapperLeft img {  
+    border-radius: 8px;
+    margin-left: 40px;
+    width: 70px;
+    cursor: pointer;
+  }
+  .wrapperLeft img:hover {
+    border-bottom: 1px solid red;
+    /* background: linear-gradient(to right, #000000, #434343); */
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .wrapperRight {
+    /* border: 1px solid red; */
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+  }
+  .wrapperRight > div {
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+    padding: 6px 10px;
+  }
+  .wrapperRight > :nth-child(7) {
+    /* border: 1px solid green; */
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+    padding: 6px 10px;
+    background: linear-gradient(45deg, #434343, #000000);
+  }
+  
+  .wrapperRight > div:hover {
+    border-bottom: 1px solid red;
+    background: linear-gradient(to right, #000000, #434343);
+  }
+  .navbar-resume {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap:10px;
+    cursor: pointer;
+  }
+  
+  .navbar-resume:hover {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .wrapperRight a:hover {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .responce {
+    display: none;
+  }
+  
+  /*               medium size               */
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    .responce {
+      margin-right: 40px;
+      display: none;
+      font-size: 30px;
+    }
+  
+    .drawerbody {
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .drawerbody a:hover {
+      cursor: pointer;
+      color: #6a6a6a;
+    }
+  
+    .navbar-resume {
+      /* background-color: #1a1a1a; */
+      color: white;
+    }
+  
+    .navbar-resume:hover {
+      color: white;
+      padding: 8px;
+      background: linear-gradient(to right, #000000, #434343);
+    }
+  }
+  @media all and (min-width: 280px) and (max-width: 767px) {
+    .wrapperRight {
+      display: none;
+    }
+  
+    .responce {
+      margin-right: 40px;
+      display: block;
+      font-size: 30px;
+    }
+  
+    .drawerbody {
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .drawerbody a:hover {
+      cursor: pointer;
+      color: #6a6a6a;
+    }
+  
+    .navbar-resume {
+      background-color: #1a1a1a;
+      color: white;
+    }
+    .navbar-resume:hover {
+      color: white;
+      padding: 8px;
+      background: linear-gradient(to right, #000000, #434343);
+    }
+  }

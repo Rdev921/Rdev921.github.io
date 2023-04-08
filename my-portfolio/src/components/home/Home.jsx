@@ -1,4 +1,4 @@
-// import "./home.css";
+import "./home.css";
 
 import { HiDownload } from "react-icons/hi";
 
@@ -18,7 +18,7 @@ function Home () {
          {/* <strong id="user-detail-intro">  A skilled Full Stack Web Developer 💻</strong> */}
           </div>
           <a
-            href="https://drive.google.com/uc?id=1OT-kgHq6aB7NFX32qP5AJUISBtMEM8jw&export=download"
+            href="https://drive.google.com/file/d/1cDaJNw_WaXS3zt0xkyOmiOeP99g91nY0&export=download"
             id="resume-link-2"
           >
             <div
@@ -36,9 +36,9 @@ function Home () {
         </div>
 
         <div className="homeright">
-          <img
+          <img style={{borderRadius:"65%",border:"1px dashed teal"}}
             className="home-img"
-            src={process.env.PUBLIC_URL + "./Images/profile.png"}
+            src={"mypic.png"}
             alt="profile"
           />
         </div>

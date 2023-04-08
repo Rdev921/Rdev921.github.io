@@ -1,0 +1,145 @@
+.home-main {
+    background-color: #e0eff8;
+    padding: 140px 0px 106px 0px;
+  }
+  
+  .homeWrapper {
+    /* border: 1px solid red; */
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .homeLeft {
+      /* border: 1px solid red; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .homeLeft > div:nth-child(1) {
+      /* border: 1px solid red; */
+    width: 100%;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+  
+    
+  }
+  .homeLeft > div:nth-child(2) {
+      /* border: 1px solid rgb(11, 166, 171); */
+  padding-left: 6px;
+  
+    
+  }
+  
+  .homeLeft a {
+    width: 24%;
+  }
+  
+  .home-resume {
+      /* border: 1px solid yellow; */
+    background: repeating-linear-gradient(to top left, #161617 0%, #9b9b9b 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 7px 10px;
+    width: 80%;
+    border-radius: 5px;
+    font-size: 18px;
+    font-style: normal;
+    cursor: pointer;
+    margin-left: 4px;
+  
+  }
+  
+  .home-resume:hover {
+  
+      border-bottom: 1px solid red;
+    background: linear-gradient(to right, #000000, #434343);
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color: white;
+  }
+  
+  .homeright {
+    width: 500px;
+  }
+  
+  .home-img {
+    width: 60%;
+    display: block;
+    margin: auto;
+  }
+  
+  /* meidum screens */
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    
+    .homeLeft > div:nth-child(1) {
+      font-size: 40px;
+    }
+    .home-img {
+      width: 60%;
+      display: block;
+      margin: auto;
+    }
+    .homeright {
+      width: 300px;
+      /* height: 300px; */
+    }
+  
+    .home-resume {
+      width: 130px;
+    }
+  
+    .homeLeft a {
+      width: min-content;
+    }
+  }
+  
+  /* small screens */
+  @media all and (min-width: 280px) and (max-width: 767px) {
+    .home-main {
+      padding: 60px 0px 0px 0px;
+    }
+  
+    .homeWrapper {
+       
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .homeLeft {
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+      padding: 0px;
+      text-align: center;
+    }
+  
+    .homeright {
+      width: 300px;
+    }
+  
+    .homeLeft > div:nth-child(1) {
+      font-size: 40px;
+    }
+  
+    .home-resume {
+      width: 130px;
+    }
+  
+    .homeLeft a {
+      width: min-content;
+    }
+  }

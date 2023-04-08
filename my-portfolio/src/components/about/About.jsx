@@ -1,4 +1,4 @@
-// import "./about.css";
+import "./about.css";
 function About() {
   const openLink = (url) => {
     window.open(url);

@@ -1,4 +1,4 @@
-// import "./projects.css";
+import "./projects.css";
 import { FaGithub } from "react-icons/fa";
 import { HiExternalLink } from "react-icons/hi";
 
