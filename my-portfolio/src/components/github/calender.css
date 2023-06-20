@@ -1,6 +1,6 @@
 .github-main {
     /* border: 1px solid red; */
-    background-color: #e0eff8;
+    background-color: #000000;
     padding: 2px 0px 30px 0px;
     display: flex;
     flex-direction: column;
@@ -11,6 +11,7 @@
   
   .github-heading {
     font-size: 40px;
+    color: #ffffff;
   }
   
   .github-stats {

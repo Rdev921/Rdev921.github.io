@@ -1,5 +1,5 @@
 import React from "react";
-// import GitHubCalendar from "react-github-calendar";
+import GitHubCalendar from "react-github-calendar";
 import { Tooltip } from 'react-tooltip'
 import "./calender.css";
 
@@ -28,10 +28,10 @@ function Calender() {
     <div className="github-main">
       <h1 className="github-heading">GitHub</h1>
       <div className="github-calender">
-        {/* <GitHubCalendar
+        <GitHubCalendar
           className="github-calendar-class"
           transformData={selectLast12Months}
-          username="uzairansari11"
+          username="Rdev921"
           color={"red"}
           blockSize={14}
           fontSize={20}
@@ -39,7 +39,7 @@ function Calender() {
           hideTotalCount
         >
           <Tooltip delayShow={20} html />
-        </GitHubCalendar> */}
+        </GitHubCalendar>
       </div>
       <div className="github-stats">
         <div>

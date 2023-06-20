@@ -11,12 +11,12 @@ function About() {
       <div className="aboutWrapper">
         <div className="aboutWrapperDiv">
           <div className="aboutMe" id="user-detail-intro">
-            <div id="user-detail-name">A Passionate aspiring Full Stack Web Developer skilled
-in MERN Stack. Is proficient in developing websites
-using HTML, CSS, JavaScript, React, Redux, and
-ChakraUI. Looking forward to working in an
-organization that can challenge my abilities as a web
-developer.
+            <div id="user-detail-name" style={{marginTop:"-100px"}}>A Passionate aspiring Full Stack Web Developer skilled
+                in MERN Stack. Is proficient in developing websites
+                using HTML, CSS, JavaScript, React, Redux, and
+                ChakraUI. Looking forward to working in an
+                organization that can challenge my abilities as a web
+                developer.
 </div> 
           </div>
           <div className="about-socialLink">
@@ -34,18 +34,20 @@ developer.
           </div>
         </div>
         <div className="aboutWrapperExp">
-          {/* <img
-            src="https://technext.github.io/satner/img/about-us.png"
+          <img style={{borderRadius:"50%"}}
+            src="mypic.png"
+            height={350}
+            width={350}
             alt="About"
-          /> */}
+          />
 
-<div>    <span style={{color :"#ff3a5e  " , fontSize:"40px"}} >  1200+ </span>          <br/> Hrs Coding</div>
+{/* <div>    <span style={{color :"#ff3a5e  " , fontSize:"40px"}} >  1200+ </span>          <br/> Hrs Coding</div>
 <div>
 <div> <span style={{color :"#ff3a5e  " , fontSize:"40px"}}  >  30+ </span>    <br/>  Mini Projects </div>
 <div> <span style={{color :"#ff3a5e  " , fontSize:"40px"}}  >  3+ </span>    <br/>  Major Projects </div>
 <div> <span style={{color :"#ff3a5e  " , fontSize:"40px"}}  >  300+ </span>   <br/>  DSA Problem </div>
 <div> <span style={{color :"#ff3a5e  " , fontSize:"40px"}}  >  200+ </span>    <br/>  Hrs Soft Skills </div>
-</div>
+</div> */}
 
         </div>
       </div>

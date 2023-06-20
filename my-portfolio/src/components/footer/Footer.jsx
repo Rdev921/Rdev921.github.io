@@ -4,7 +4,7 @@ import "./footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <div className="love">Made with 🖤 by Uzair</div>
+      <h3 style={{color:"#ffffff",textAlign:"center"}}> &copy; 2022 All rights reserved.</h3>
     </div>
   );
 }

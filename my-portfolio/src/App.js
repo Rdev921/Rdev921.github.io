@@ -1,5 +1,5 @@
 import './App.css';
-import About from "./components/about/About";
+import About from "./components/about/About.jsx";
 import Home from "./components/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import Skills from "./components/skills/Skills";

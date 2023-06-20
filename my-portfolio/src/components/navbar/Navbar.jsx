@@ -22,9 +22,9 @@ function Navbar() {
     <div id="nav-menu" className="navbar">
       <div className="wrapper">
         <div className="wrapperLeft">
-          {/* <Link to="home" smooth={true} offset={-50} duration={500}>
-            <img src="./logo.png" alt="icon" />
-          </Link> */}
+          <Link to="home" smooth={true} offset={-50} duration={500}>
+            <h3 style={{fontSize:"30px", fontWeight:"600"}}>Rishabh</h3>
+          </Link>
         </div>
         <div className="wrapperRight">
           <div>

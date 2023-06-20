@@ -1,6 +1,6 @@
 .projects-projects {
     /* border: 1px solid red; */
-    background-color: #e0eff8;
+    background-color: #ffffff;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@
   }
   
   .projects-heading {
-    /* border: 1px solid blue; */
+    /* border: 1px solid black; */
   
     font-size: 40px;
   }
@@ -25,7 +25,7 @@
   /* ----------------------------- */
   
   .project-card {
-    /* border: 1px solid blue; */
+    /* border: 1px solid black; */
     width: 75%;
     margin: auto;
     justify-content: space-between;
@@ -33,15 +33,16 @@
   }
   
   .project-card-container {
-    /* border: 1px solid rgb(241, 78, 24); */
+    border: 3px inset black;
     gap: 30px;
     display: flex;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     justify-content: space-between;
     border-radius: 10px;
   }
   
   .project-card-container > div:nth-child(1) {
-    border: 1px solid rgb(51, 15, 207);
+    /* border: 1px solid rgb(51, 15, 207); */
     padding: 10px ;
   
     align-items: center;
@@ -52,14 +53,14 @@
   }
   
   .project-card-container > div:nth-child(1) > img {
-    border: 1px solid rgb(51, 15, 207);
+    /* border: 1px solid rgb(51, 15, 207); */
     width: 100%;
     border-radius: 8px;
     display: block;
   }
   
   .project-card-text {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     padding: 10px;
     text-align: center;
     width: 50%;
