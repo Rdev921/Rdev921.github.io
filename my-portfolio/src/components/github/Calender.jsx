@@ -29,7 +29,7 @@ function Calender() {
       <h1 className="github-heading">GitHub</h1>
       <div className="github-calender">
         <GitHubCalendar
-          className="github-calendar-class"
+          className="react-activity-calendar"
           transformData={selectLast12Months}
           username="Rdev921"
           color={"red"}
