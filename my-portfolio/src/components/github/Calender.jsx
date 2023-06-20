@@ -44,22 +44,19 @@ function Calender() {
       <div className="github-stats">
         <div>
           <img
-            src="https://github-readme-streak-stats.herokuapp.com?user=uzairansari11&ring=black&currStreakLabel=000000&fire=black"
-            alt="Uzair Stats"
+            src="https://github-readme-streak-stats.herokuapp.com/?user=rdev921&"
             id="github-streak-stats"
           />
         </div>
         <div>
           <img
             src="https://camo.githubusercontent.com/c55882aa8c64bd4dfad49ae6a5afb3c7e46be79899dd385946f8ffb57e639145/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67733f757365726e616d653d726465763932312673686f775f69636f6e733d74727565266c6f63616c653d656e266c61796f75743d636f6d70616374"
-            alt="Uzair Stats"
             id="github-top-langs"
           />
         </div>
         <div>
           <img
             src="https://camo.githubusercontent.com/f09182a711e7bab3ff3924a9d40c369ac5c77cdeca500075bc63a7875204f60b/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d726465763932312673686f775f69636f6e733d74727565266c6f63616c653d656e"
-            alt="Uzair Stats"
             id="github-stats-card"
           />
         </div>
