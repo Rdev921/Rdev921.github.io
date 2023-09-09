@@ -1,58 +1,96 @@
 import "./about.css";
 function About() {
-  const openLink = (url) => {
-    window.open(url);
-  };
-  return (
-    <div className="about section" id="about">
-    
-      <h1 className="aboutH1">About me</h1>
+	const openLink = (url) => {
+		window.open(url);
+	};
+	return (
+		<div className="about section" id="about">
+			<h1 className="aboutH1">About Me</h1>
 
-      <div className="aboutWrapper">
-        <div className="aboutWrapperDiv">
-          <div className="aboutMe" id="user-detail-intro">
-            <div id="user-detail-name" style={{marginTop:"-100px"}}>A Passionate aspiring Full Stack Web Developer skilled
-                in MERN Stack. Is proficient in developing websites
-                using HTML, CSS, JavaScript, React, Redux, and
-                ChakraUI. Looking forward to working in an
-                organization that can challenge my abilities as a web
-                developer.
-</div> 
-          </div>
-          <div className="about-socialLink">
-            <img
-              onClick={() => openLink("https://github.com/Rdev921")}
-              src={process.env.PUBLIC_URL + "./Images/github.png"}
-           
-              alt="About"
-            />
-            <img
-              onClick={() => openLink("https://www.linkedin.com/in/rishabh-dev-884b511a2/")}
-              src={process.env.PUBLIC_URL + "./Images/linkedin1.png"}
-              alt="About"
-            />
-          </div>
-        </div>
-        <div className="aboutWrapperExp">
-          <img style={{borderRadius:"50%"}}
-            src="mypic.png"
-            height={350}
-            width={350}
-            alt="About"
-          />
+			<div className="aboutWrapper">
+				<div className="aboutWrapperDiv">
+					<div className="aboutMe" id="user-detail-intro">
+						As a passionate Full Stack Web Developer with expertise in the MERN
+						Stack. I possess proficiency in crafting dynamic websites using
+						React, Redux, Node.js, Express.js, MongoDB, HTML, CSS, JavaScript, and
+						ChakraUI. I am eagerly seeking opportunities within an organization
+						that can provide challenges to further enhance my abilities and
+						skills as a web developer.
+					</div>
 
-{/* <div>    <span style={{color :"#ff3a5e  " , fontSize:"40px"}} >  1200+ </span>          <br/> Hrs Coding</div>
-<div>
-<div> <span style={{color :"#ff3a5e  " , fontSize:"40px"}}  >  30+ </span>    <br/>  Mini Projects </div>
-<div> <span style={{color :"#ff3a5e  " , fontSize:"40px"}}  >  3+ </span>    <br/>  Major Projects </div>
-<div> <span style={{color :"#ff3a5e  " , fontSize:"40px"}}  >  300+ </span>   <br/>  DSA Problem </div>
-<div> <span style={{color :"#ff3a5e  " , fontSize:"40px"}}  >  200+ </span>    <br/>  Hrs Soft Skills </div>
-</div> */}
+					<div className="about-socialLink">
+						<img
+							onClick={() => openLink("https://github.com/uzairansari11")}
+							src={process.env.PUBLIC_URL + "./Images/github.png"}
+							alt="About"
+						/>
+						<img
+							onClick={() =>
+								openLink("https://www.linkedin.com/in/uzairansari11")
+							}
+							src={process.env.PUBLIC_URL + "./Images/linkedin1.png"}
+							alt="About"
+						/>
+					</div>
+				</div>
 
-        </div>
-      </div>
-    </div>
-  );
+				<div className="aboutWrapperExp">
+					<div>
+						{" "}
+						<span
+							style={{ color: "teal", fontSize: "40px", fontWeight: "500" }}
+						>
+							{" "}
+							1200+{" "}
+						</span>{" "}
+						<br /> Hrs Coding
+					</div>
+					<div>
+						<div>
+							{" "}
+							<span
+								style={{ color: "teal", fontSize: "40px", fontWeight: "500" }}
+							>
+								{" "}
+								30+{" "}
+							</span>{" "}
+							<br /> Mini Projects{" "}
+						</div>
+						<div>
+							{" "}
+							<span
+								style={{ color: "teal", fontSize: "40px", fontWeight: "500" }}
+							>
+								{" "}
+								5+{" "}
+							</span>{" "}
+							<br /> Major Projects{" "}
+						</div>
+						<div>
+							{" "}
+							<span
+								style={{ color: "teal", fontSize: "40px", fontWeight: "500" }}
+							>
+								{" "}
+								300+{" "}
+							</span>{" "}
+							<br /> DSA Problem{" "}
+						</div>
+						<div>
+							{" "}
+							<span
+								style={{ color: "teal", fontSize: "40px", fontWeight: "500" }}
+							>
+								{" "}
+								200+{" "}
+							</span>{" "}
+							<br /> Hrs Soft Skills{" "}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
 }
 
 export default About;

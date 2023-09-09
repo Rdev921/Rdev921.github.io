@@ -1,177 +1,178 @@
 .about.section {
-    /* border: 1px solid red; */
-    background-color: #ffffff;
-    padding: 0px 0px 50px 0px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .aboutH1 {
-    text-align: center;
-    font-size: 40px;
-  }
-  
-  .aboutWrapper {
-    /* border: 1px solid rgb(45, 196, 25); */
-    width: 75%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
-  }
-  
-  .aboutWrapperDiv {
-    /* border: 1px solid rgb(227, 118, 22); */
-  
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  
-    font-size: 20px;
-    line-height: 40px;
-    text-align: justify;
-  }
-  
-  .aboutMe {
-    /* font-family: "Oxygen", sans-serif; */
-    margin: auto;
-    width: 100%;
-    line-height: 35px;
-    border-radius: 5px;
-  }
-  
-  .about-socialLink {
-    /* border: 1px solid rgb(15, 9, 84); */
-  
-    width: 30%;
-    height: 82px;
-    display: flex;
-    gap: 30%;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .about-socialLink img {
-    /* border: 1px solid rgb(0, 1, 0); */
-  
-    width: 30%;
-    cursor: pointer;
-  }
-  
-  .about-socialLink img:hover {
-    transform: scale(1.1);
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-  }
-  
-  .aboutWrapperExp {
-    /* border: 1px solid blue; */
-    font-size: 20px;
-    width: 30%;
-    gap: 10px;
-  }
-  
-  .aboutWrapperExp > :nth-child(1) {
-    border-radius: 5px;
-    justify-content: center;
-    text-align: center;
-    padding: 10px 0px;
-    margin-bottom: 15px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  }
-  
-  .aboutWrapperExp > :nth-child(1) :hover {
-    /* border-bottom:1px solid red; */
-    cursor: pointer;
-  }
-  
-  .aboutWrapperExp > :nth-child(2) {
-    /* border: 1px solid rgb(15, 9, 84); */
-  
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: space-between;
-    text-align: center;
-    gap: 15px;
-  }
-  .aboutWrapperExp > :nth-child(2) div {
-    border: 1px solid #e0eff8;
-    border-radius: 5px;
-    padding: 20px 0px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  }
-  .aboutWrapperExp > :nth-child(2) div:hover {
-    /* border-bottom:1px solid red; */
-    cursor: pointer;
-  }
-  
-  /* meidum screens */
-  @media all and (min-width: 768px) and (max-width: 1023px) {
-    .aboutMe {
-      padding: 0px;
-      border-radius: 5px;
-    }
-  
-    .about-socialLink {
-      width: 30%;
-    }
-  }
-  .aboutWrapperExp {
-    /* border: 1px solid rgb(248, 60, 27); */
-    font-size: 20px;
-    width: 40%;
-    gap: 10px;
-  }
-  
-  /* small screens */
-  @media all and (min-width: 280px) and (max-width: 767px) {
-    .about.section {
-      /* border: 1px solid red; */
-      background-color: #e0eff8;
-      padding: 0px 0px 0px 0px;
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .aboutWrapper {
-      /* border: 1px solid red; */
-      display: flex;
-      flex-direction: column-reverse;
-      justify-content: center;
-      margin: auto;
-    }
-    .aboutWrapperExp {
-      /* border: 1px solid rgb(248, 60, 27); */
-      font-size: 20px;
-      width: 90%;
-      gap: 10px;
-      margin-bottom: 4%;
-    }
-  
-    .aboutWrapperDiv {
-      border: 1px solid red;
-  
-      width: 90%;
-      margin: auto;
-    }
-  
-    .aboutMe {
-      /* border: 1px solid red; */
-  
-      width: 100%;
-      padding: 0px;
-      border-radius: 5px;
-    }
-  
-    .about-socialLink {
-      width: 30%;
-    }
-  
-    .about-socialLink img {
-      width: 30%;
-    }
-  }
+	background-color: #e0eff8;
+	display: flex;
+	flex-direction: column;
+}
+
+.aboutH1 {
+	text-align: center;
+	font-weight: 500;
+	font-size: xx-large;
+	text-decoration: underline;
+	text-decoration-color: teal;
+	text-decoration-style: line;
+	text-underline-offset: 10px;
+	padding: 14px;
+}
+
+.aboutWrapper {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.aboutWrapperDiv {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.aboutMe {
+	width: 100%;
+	text-align: justify;
+	text-align-last: left;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 35px;
+}
+
+.about-socialLink {
+	margin-top: 10px;
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.about-socialLink img {
+	width: 15%;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+.about-socialLink img:hover {
+	transform: scale(1.05);
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.aboutWrapperExp {
+	font-size: 20px;
+	width: 60%;
+}
+
+.aboutWrapperExp> :nth-child(1) {
+	border-radius: 5px;
+	justify-content: center;
+	text-align: center;
+	padding: 10px 0px;
+	margin-bottom: 15px;
+	background-color: rgb(166, 210, 240);
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.aboutWrapperExp> :nth-child(1) :hover {
+	cursor: pointer;
+}
+
+.aboutWrapperExp> :nth-child(2) {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: space-between;
+	text-align: center;
+	gap: 15px;
+}
+
+.aboutWrapperExp> :nth-child(2) div {
+	border-radius: 5px;
+	padding: 20px 0px;
+	background-color: rgb(166, 210, 240);
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.aboutWrapperExp> :nth-child(2) div:hover {
+	cursor: pointer;
+}
+
+/* Medium screens */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+	.about-socialLink {
+		margin-top: 10px;
+		width: 60%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.about-socialLink img {
+		width: 20%;
+	}
+}
+
+.aboutWrapperExp {
+	font-size: 20px;
+	width: 40%;
+	gap: 10px;
+}
+
+/* Small screens */
+@media all and (min-width: 280px) and (max-width: 767px) {
+	.about.section {
+		background-color: #e0eff8;
+		padding: 20px 0 ;
+		display: flex;
+		flex-direction: column;
+    margin-top: 20px;
+	}
+
+	.aboutH1 {
+		margin-bottom: 20px;
+	}
+
+	.aboutWrapper {
+		width: 90%;
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		margin: auto;
+	}
+
+	.aboutWrapperExp {
+		/* border: 1px solid rgb(248, 60, 27); */
+		font-size: 20px;
+		width: 100%;
+		gap: 10px;
+		margin-bottom: 4%;
+	}
+
+	.aboutWrapperDiv {
+		/* border: 1px solid red; */
+		width: 100%;
+		margin: auto;
+	}
+
+	.aboutMe {
+		/* border: 1px solid red; */
+		width: 100%;
+		padding: 0px;
+		border-radius: 5px;
+	}
+
+	.about-socialLink {
+		/* border: 1px solid red; */
+		margin-top: 10px;
+		width: 60%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.about-socialLink img {
+		width: 20%;
+	}
+}

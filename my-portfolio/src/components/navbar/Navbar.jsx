@@ -23,7 +23,7 @@ function Navbar() {
       <div className="wrapper">
         <div className="wrapperLeft">
           <Link to="home" smooth={true} offset={-50} duration={500}>
-            <h3 style={{fontSize:"30px", fontWeight:"600"}}>Rishabh</h3>
+            <h3 style={{fontSize:"25px", fontWeight:"900",marginLeft:'12px'}}>Rishabh</h3>
           </Link>
         </div>
         <div className="wrapperRight">
@@ -94,15 +94,15 @@ function Navbar() {
             </Link>
           </div>
           <div>
-            <a
-              href="https://drive.google.com/file/d/1cDaJNw_WaXS3zt0xkyOmiOeP99g91nY0&export=download"
+          
+          <a
               className="nav-link resume"
               id="resume-link-1"
             >
               <div
                 onClick={() =>
                   openLink(
-                    "https://drive.google.com/file/d/1cDaJNw_WaXS3zt0xkyOmiOeP99g91nY0/view?usp=sharing"
+                    "https://drive.google.com/file/d/1cDaJNw_WaXS3zt0xkyOmiOeP99g91nY0/view?usp=sharing",
                   )
                 }
                 className="navbar-resume"
@@ -150,7 +150,7 @@ function Navbar() {
                   </div>
                   <div>
                     <Link
-                      to="skills"
+                      to="#"
                       smooth={true}
                       offset={-50}
                       duration={500}
@@ -193,13 +193,13 @@ function Navbar() {
                     </Link>
                   </div>
                   <div>
-                    <a href="https://drive.google.com/uc?id=173kc0AW6miCrWOsqeYN3ad348otgyA13&export=download">
+                  <a >
                       <div
                         className="navbar-resume"
                         onClick={() => {
                           onClose();
                           openLink(
-                            "https://drive.google.com/file/d/173kc0AW6miCrWOsqeYN3ad348otgyA13/view?usp=share_link"
+                            "https://drive.google.com/file/d/1cDaJNw_WaXS3zt0xkyOmiOeP99g91nY0/view?usp=sharing",
                           );
                         }}
                       >

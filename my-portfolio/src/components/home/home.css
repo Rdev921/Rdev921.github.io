@@ -43,7 +43,7 @@
   
   .home-resume {
       /* border: 1px solid yellow; */
-    background: repeating-linear-gradient(to top left, #161617 0%, #9b9b9b 100%);
+    background: rgb(69, 221, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,14 +55,13 @@
     font-size: 18px;
     font-style: normal;
     cursor: pointer;
+    font-weight: 600;
     margin-left: 4px;
   
   }
   
   .home-resume:hover {
-  
-      border-bottom: 1px solid red;
-    background: linear-gradient(to right, #000000, #434343);
+    background: rgb(26, 188, 224);
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;

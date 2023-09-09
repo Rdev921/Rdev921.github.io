@@ -4,7 +4,7 @@ import "./footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <h3 style={{color:"#ffffff",textAlign:"center"}}> &copy; 2022 All rights reserved.</h3>
+      <h3 style={{color:"#ffffff",textAlign:"center",fontWeight:'600'}}> &copy; 2022 All rights reserved.</h3>
     </div>
   );
 }

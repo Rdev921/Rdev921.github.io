@@ -11,7 +11,7 @@ function Home () {
     <div className="home-main" id="home">
       <div className="homeWrapper">
         <div className="homeLeft">
-          <div id="user-detail-name" style={{fontWeight:"600",fontSize:"50px"}}>Hii, Rishabh</div>
+          <div id="user-detail-name" style={{fontWeight:"600",fontSize:"50px"}}>Hii, I'm Rishabh</div>
          
           <div>
           
@@ -23,11 +23,8 @@ function Home () {
           </div>
           </div>
           <a
-            href="https://drive.google.com/file/d/1cDaJNw_WaXS3zt0xkyOmiOeP99g91nY0&export=download"
             id="resume-link-2"
           >
-
-          
             <div
               onClick={() =>
                 openLink(
@@ -42,15 +39,15 @@ function Home () {
           </a>
         </div>
 
-        <div className="homeright">
+        <div className="right-section">
           <img style={{
-            borderRadius:"45%",
-            border:"3px solid black",
-            width:"500px",
-            height:"530px"
+            borderRadius:"55%",
+            width:"350px",
+            border:"1px solid #000",
+            height:"350px"
             }}
             className="home-img"
-            src={"https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif"}
+            src={"profile.png"}
             alt="profile"
           />
         </div>
