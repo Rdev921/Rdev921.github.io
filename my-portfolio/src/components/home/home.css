@@ -43,14 +43,14 @@
   
   .home-resume {
       /* border: 1px solid yellow; */
-    background: rgb(69, 221, 255);
+    background: rgb(94, 175, 228);
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     color: white;
-    padding: 7px 10px;
-    width: 80%;
+    padding: 7px;
+    width: 60%;
     border-radius: 5px;
     font-size: 18px;
     font-style: normal;
@@ -61,7 +61,8 @@
   }
   
   .home-resume:hover {
-    background: rgb(26, 188, 224);
+    background: rgb(32, 149, 226)
+;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
@@ -74,7 +75,7 @@
   }
   
   .home-img {
-    width: 60%;
+    width: 50%;
     display: block;
     margin: auto;
   }
@@ -140,5 +141,11 @@
   
     .homeLeft a {
       width: min-content;
+    }
+    .right-section{
+      width: 80%;
+    }
+    .right-section img{
+      width: 100%;
     }
   }

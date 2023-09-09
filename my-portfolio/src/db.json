@@ -1,220 +1,298 @@
 {
-    "language_framework": [
-     {
-      "id": "1",
-      "title": "HTML",
-      "src": "https://www.svgrepo.com/show/473654/html5.svg"
-     },
-     {
-      "id": "2",
-      "title": "CSS",
-      "src": "https://www.svgrepo.com/show/473577/css3.svg"
-     },
-     {
-      "id": "3",
-      "title": "JavaScript",
-      "src": "https://www.svgrepo.com/show/508924/js02.svg"
-     },
-     {
-      "id": "4",
-      "title": "React Js",
-      "src": "https://www.svgrepo.com/show/342156/react.svg"
-     },
-     {
-      "id": "5",
-      "title": "Chakra UI",
-      "src": "https://img.icons8.com/fluency-systems-regular/512/chakra-ui.png"
-     },
-     {
-      "id": "6",
-      "title": "Redux",
-      "src": "https://www.svgrepo.com/show/306657/redux.svg"
-     },
-     {
-      "id": "7",
-      "title": "TypeScript",
-      "src": "https://www.svgrepo.com/show/369021/typescript.svg"
-     }
-     ,
-     {
-      "id": "8",
-      "title": "Next Js",
-      "src": "https://www.svgrepo.com/show/342062/next-js.svg"
-     }
-     ,
-     {
-      "id": "9",
-      "title": "Node Js",
-      "src": "https://www.svgrepo.com/show/445914/node-js.svg"
-     }
-     ,
-     {
-      "id": "10",
-      "title": "MongoDB",
-      "src": "https://www.svgrepo.com/show/342044/mongodb.svg"
-     }
-     ,
-     {
-      "id": "11",
-      "title": "Express Js",
-      "src": "https://www.svgrepo.com/show/330398/express.svg"
-     }
-   
-   
-    ],
-    "tools": [
-     {
-      "id": "t1",
-      "title": "VS Code",
-      "src": "https://www.svgrepo.com/show/424927/vs-code-logo-microsoft.svg"
-     },
-     {
-      "id": "t2",
-      "title": "GitHub",
-      "src": "https://www.svgrepo.com/show/473620/github.svg"
-     },
-     {
-      "id": "t3",
-      "title": "Netlify",
-      "src": "https://www.svgrepo.com/show/306463/netlify.svg"
-     },
-     {
-      "id": "t4",
-      "title": "Postman",
-      "src": "https://www.svgrepo.com/show/306590/postman.svg"
-     },
-     {
-      "id": "t5",
-      "title": "Vercel",
-      "src": "https://www.svgrepo.com/show/327408/logo-vercel.svg"
-     }
-     ,
-     {
-      "id": "t6",
-      "title": "Codepen",
-      "src": "https://www.svgrepo.com/show/313739/codepen.svg"
-     }
-    ],
-    "projects": [
-     {
-      "id": "p1",
-      "image": "",
-      "title": "",
-      "description": "Homedecor is an e-commerce platform that offers a wide range of home decor products. User-friendly interface, easy browsing, filtering and payment options. Built with React, and json server.",
-      "tech_stack": [
-       {
-        "id": "t1",
-        "title": "React",
-        "src": "https://lh6.googleusercontent.com/fXw1iHarB3XhTJGG3I4dty4bkmZeI0b_99ns5PvOwHYVhNJFh63biABfNIxB8D_0zpY=w2400"
-       },
-       {
-        "id": "t2",
-        "title": "Chakra UI",
-        "src": "https://lh3.googleusercontent.com/sorkqLEqIwFlWRlnTcZoEXqWls90FK-Sr2SqVqqk0nxaytIUTad0_99v0deP-EhaNEY=w2400"
-       },
-       {
-        "id": "t3",
-        "title": "Redux",
-        "src": "https://lh5.googleusercontent.com/fIY8_nCkUbVDqzQA_RNU_H7u6X3hKQB9hm89AoK_6R4s3nGcUqLiK5UEJaNBlOksqVI=w2400"
-       },
-       {
-        "id": "t4",
-        "src": "https://lh3.googleusercontent.com/1ZPUcY76TcoA-qYiCXERe4lTj6FoJgXDR_5_-aFYI78tXYGUp5hmLxJdlbgnbh_lpHg=w2400",
-        "title": "JavaScript"
-       },
-       {
-        "id": "t5",
-        "src": "https://lh5.googleusercontent.com/NNYMLTcl7nPRNkNErJz17gHsCD8KsXkHGmuXyxwdftUB9QURREAPClWjk7YCLKd_jKs=w2400",
-        "title": "HTML"
-       },
-       {
-        "id": "t6",
-        "src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400",
-        "title": "CSS"
-       }
-      ],
-      "github": "",
-      "deploy": ""
-     },
-     {
-      "id": "p2",
-      "image": "",
-      "title": "",
-      "description": " is a cloud-based survey application that assists users in the creation, distribution, and analysis of surveys. To boost response rates, users can send surveys to respondents and publish them on their websites and social media accounts.",
-      "tech_stack": [
-       {
-        "id": "t1",
-        "src": "https://lh3.googleusercontent.com/1ZPUcY76TcoA-qYiCXERe4lTj6FoJgXDR_5_-aFYI78tXYGUp5hmLxJdlbgnbh_lpHg=w2400",
-        "title": "JavaScript"
-       },
-       {
-        "id": "t2",
-        "src": "https://lh5.googleusercontent.com/NNYMLTcl7nPRNkNErJz17gHsCD8KsXkHGmuXyxwdftUB9QURREAPClWjk7YCLKd_jKs=w2400",
-        "title": "HTML"
-       },
-       {
-        "id": "t3",
-        "src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400",
-        "title": "CSS"
-       },
-       {
-        "id": "t4",
-        "src": "https://lh3.googleusercontent.com/hRjs11EL5wRR-PcNyPg0356k0v9iaot_BovbhUV3MVOiqdvUjfHiT1Tvg1Lpu-D9e4U=w2400",
-        "title": "JSON"
-       }
-      ],
-      "github": "",
-      "deploy": ""
-     },
-     {
-      "id": "p3",
-      "image": "",
-      "title": "",
-      "description": "is a fitness company which provide membership to track the health of a user and best trainers, gyms & coaches all in one app.",
-      "tech_stack": [
-       {
-        "id": "t1",
-        "src": "https://lh3.googleusercontent.com/1ZPUcY76TcoA-qYiCXERe4lTj6FoJgXDR_5_-aFYI78tXYGUp5hmLxJdlbgnbh_lpHg=w2400",
-        "title": "JavaScript"
-       },
-       {
-        "id": "t2",
-        "src": "https://lh5.googleusercontent.com/NNYMLTcl7nPRNkNErJz17gHsCD8KsXkHGmuXyxwdftUB9QURREAPClWjk7YCLKd_jKs=w2400",
-        "title": "HTML"
-       },
-       {
-        "id": "t3",
-        "src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400",
-        "title": "CSS"
-       }
-      ],
-      "github": "",
-      "deploy": ""
-     },
-     {
-      "id": "p4",
-      "image": "",
-      "title": "",
-      "description": "This application allows users to search for  videos and play them within the app. The app also has sorting functionality, allowing users to sort videos by views, alphabetically, and popularity.",
-      "tech_stack": [
-       {
-        "id": "t1",
-        "src": "https://lh3.googleusercontent.com/1ZPUcY76TcoA-qYiCXERe4lTj6FoJgXDR_5_-aFYI78tXYGUp5hmLxJdlbgnbh_lpHg=w2400",
-        "title": "JavaScript"
-       },
-       {
-        "id": "t2",
-        "src": "https://lh5.googleusercontent.com/NNYMLTcl7nPRNkNErJz17gHsCD8KsXkHGmuXyxwdftUB9QURREAPClWjk7YCLKd_jKs=w2400",
-        "title": "HTML"
-       },
-       {
-        "id": "t3",
-        "src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400",
-        "title": "CSS"
-       }
-      ],
-      "github": "",
-      "deploy": ""
-     }
-    ]
-   }
+	"skills": [
+		{
+			"id": "1",
+			"title": "React Js",
+			"src": "https://www.svgrepo.com/show/342156/react.svg"
+		},
+
+		{
+			"id": "2",
+			"title": "Next Js",
+			"src": "https://www.svgrepo.com/show/342062/next-js.svg"
+		},
+		{
+			"id": "3",
+			"title": "React Native",
+			"src": "https://www.svgrepo.com/show/342156/react.svg"
+		},
+		{
+			"id": "4",
+			"title": "Redux",
+			"src": "https://www.svgrepo.com/show/306657/redux.svg"
+		},
+		{
+			"id": "5",
+			"title": "Node Js",
+			"src": "https://www.svgrepo.com/show/445914/node-js.svg"
+		},
+		{
+			"id": "6",
+			"title": "Express Js",
+			"src": "https://www.svgrepo.com/show/330398/express.svg"
+		},
+		{
+			"id": "7",
+			"title": "MongoDB",
+			"src": "https://www.svgrepo.com/show/342044/mongodb.svg"
+		},
+		{
+			"id": "8",
+			"title": "Chakra UI",
+			"src": "https://img.icons8.com/fluency-systems-regular/512/chakra-ui.png"
+		},
+		{
+			"id": "10",
+			"title": "TypeScript",
+			"src": "https://www.svgrepo.com/show/369021/typescript.svg"
+		},
+		{
+			"id": "11",
+			"title": "JavaScript",
+			"src": "https://www.svgrepo.com/show/508924/js02.svg"
+		},
+
+		{
+			"id": "12",
+			"title": "HTML",
+			"src": "https://www.svgrepo.com/show/325298/html5.svg"
+		},
+		{
+			"id": "13",
+			"title": "CSS",
+			"src": "https://www.svgrepo.com/show/325072/css3.svg"
+		}
+	],
+	"tools": [
+		{
+			"id": "t1",
+			"title": "VS Code",
+			"src": "https://www.svgrepo.com/show/424927/vs-code-logo-microsoft.svg"
+		},
+		{
+			"id": "t6",
+			"title": "Codepen",
+			"src": "https://www.svgrepo.com/show/313739/codepen.svg"
+		},
+		{
+			"id": "t2",
+			"title": "GitHub",
+			"src": "https://www.svgrepo.com/show/378421/github-outline-fill.svg"
+		},
+		{
+			"id": "t4",
+			"title": "Postman",
+			"src": "https://www.svgrepo.com/show/306590/postman.svg"
+		},
+		{
+			"id": "t3",
+			"title": "Netlify",
+			"src": "https://www.svgrepo.com/show/306463/netlify.svg"
+		},
+		{
+			"id": "t5",
+			"title": "Vercel",
+			"src": "https://www.svgrepo.com/show/327408/logo-vercel.svg"
+		}
+	],
+	"projects": [
+
+		{
+			"id": "p5",
+			"image": "https://github.com/Rdev921/Rdev921/assets/61020616/765d3ec4-e1bb-448e-ae0b-baa8b045539e",
+			"title": "Tackle & Trail",
+			"description": "Tackle & Trail is a clone of an e-commerce website Basspro which sells quality fishing, hunting, boating and outdoor sporting goods.",
+			"techStacks": [
+				{
+					"id": "t1",
+					"src": "https://lh5.googleusercontent.com/NNYMLTcl7nPRNkNErJz17gHsCD8KsXkHGmuXyxwdftUB9QURREAPClWjk7YCLKd_jKs=w2400",
+					"title": "HTML"
+				},
+				{
+					"id": "t2",
+					"src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400",
+					"title": "CSS"
+				},
+				{
+					"id": "t3",
+					"src": "https://lh3.googleusercontent.com/1ZPUcY76TcoA-qYiCXERe4lTj6FoJgXDR_5_-aFYI78tXYGUp5hmLxJdlbgnbh_lpHg=w2400",
+					"title": "JavaScript"
+				},
+				{
+					"id": "4",
+					"title": "React JS",
+					"src": "https://img.icons8.com/fluency-systems-regular/512/chakra-ui.png"
+				},
+				{
+					"id": "5",
+					"title": "Redux",
+					"src": "https://img.icons8.com/fluency-systems-regular/512/chakra-ui.png"
+				},
+				{
+					"id": "6",
+					"title": "Chakra UI",
+					"src": "https://img.icons8.com/fluency-systems-regular/512/chakra-ui.png"
+				}
+				
+			],
+			"github": "https://github.com/Rdev921/auspicious-sea-8816",
+			"deploy": "https://tackle-and-trail.netlify.app/"
+		},
+
+		{
+			"id": "p2",
+			"image": "https://user-images.githubusercontent.com/61020616/230742102-a1ad5ef0-e734-425c-91a9-956816ba58cc.png",
+			"title": "EXPRESS",
+			"description": "EXPRESS is an e-commerce website  which sells clothes, shoes and accessories for men, women and kids.",
+			"techStacks": [
+				{
+					"id": "t1",
+					"src": "https://lh3.googleusercontent.com/1ZPUcY76TcoA-qYiCXERe4lTj6FoJgXDR_5_-aFYI78tXYGUp5hmLxJdlbgnbh_lpHg=w2400",
+					"title": "JavaScript"
+				},
+				{
+					"id": "t2",
+					"src": "https://lh5.googleusercontent.com/NNYMLTcl7nPRNkNErJz17gHsCD8KsXkHGmuXyxwdftUB9QURREAPClWjk7YCLKd_jKs=w2400",
+					"title": "HTML"
+				},
+				{
+					"id": "t3",
+					"src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400",
+					"title": "CSS"
+				},
+				{
+					"id": "t4",
+					"src": "https://lh3.googleusercontent.com/hRjs11EL5wRR-PcNyPg0356k0v9iaot_BovbhUV3MVOiqdvUjfHiT1Tvg1Lpu-D9e4U=w2400",
+					"title": "Json Server"
+				},
+				{
+					"id": "5",
+					"title": "Chakra UI",
+					"src": "https://img.icons8.com/fluency-systems-regular/512/chakra-ui.png"
+				},
+				{
+					"id": "6",
+					"title": "React JS",
+					"src": "https://img.icons8.com/fluency-systems-regular/512/chakra-ui.png"
+				},
+
+				{
+					"id": "6",
+					"title": "Redux",
+					"src": "https://img.icons8.com/fluency-systems-regular/512/chakra-ui.png"
+				}
+			],
+			"github": "https://github.com/Rdev921/expert-iron-7655",
+			"deploy": "https://aquamarine-tanuki-a219de.netlify.app/"
+		},
+		{
+			"id": "p1",
+			"image": "https://github.com/Rdev921/Rdev921/assets/61020616/705cb284-9afa-4baf-a7b4-2a4da1c75b51",
+			"title": "Home Elementry",
+			"description": "Home Elementry is an Indian online marketplace that sells variety of furniture and home décor at a affordable price with top notch quality.",
+			"techStacks": [
+				{
+					"id": "t1",
+					"src": "https://lh3.googleusercontent.com/1ZPUcY76TcoA-qYiCXERe4lTj6FoJgXDR_5_-aFYI78tXYGUp5hmLxJdlbgnbh_lpHg=w2400",
+					"title": "JavaScript"
+				},
+				{
+					"id": "t2",
+					"src": "https://lh5.googleusercontent.com/NNYMLTcl7nPRNkNErJz17gHsCD8KsXkHGmuXyxwdftUB9QURREAPClWjk7YCLKd_jKs=w2400",
+					"title": "HTML"
+				},
+				{
+					"id": "t3",
+					"src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400",
+					"title": "CSS"
+				},
+				{
+					"id": "t4",
+					"src": "https://lh3.googleusercontent.com/hRjs11EL5wRR-PcNyPg0356k0v9iaot_BovbhUV3MVOiqdvUjfHiT1Tvg1Lpu-D9e4U=w2400",
+					"title": "Json Server"
+				},
+				{
+					"id": "5",
+					"title": "Chakra UI",
+					"src": "https://img.icons8.com/fluency-systems-regular/512/chakra-ui.png"
+				},
+				{
+					"id": "6",
+					"title": "React JS",
+					"src": "https://img.icons8.com/fluency-systems-regular/512/chakra-ui.png"
+				}
+			],
+			"github": "",
+			"deploy": "https://minimalist-e-commerce.vercel.app/"
+		},
+		{
+			"id": "p3",
+			"image": "https://github.com/Rdev921/Rdev921/assets/61020616/08229244-0747-478e-aad1-04f8bb2de866",
+			"title": "Login/Signup",
+			"description": "Login/Signup using Next JS using next-auth with Google Authentication",
+			"techStacks": [
+				{
+					"id": "t1",
+					"src": "https://lh3.googleusercontent.com/1ZPUcY76TcoA-qYiCXERe4lTj6FoJgXDR_5_-aFYI78tXYGUp5hmLxJdlbgnbh_lpHg=w2400",
+					"title": "JavaScript"
+				},
+				{
+					"id": "t2",
+					"src": "https://lh5.googleusercontent.com/NNYMLTcl7nPRNkNErJz17gHsCD8KsXkHGmuXyxwdftUB9QURREAPClWjk7YCLKd_jKs=w2400",
+					"title": "HTML"
+				},
+				{
+					"id": "t3",
+					"src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400",
+					"title": "CSS"
+				},
+				{
+					"id": "t4",
+					"src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400",
+					"title": "React JS"
+				},
+				{
+					"id": "t4",
+					"src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400",
+					"title": "Next JS"
+				}
+			],
+			"github": "https://github.com/Rdev921/nextassignment",
+			"deploy": "https://nextassignment.vercel.app/login"
+		},
+		{
+			"id": "p4",
+			"image": "https://user-images.githubusercontent.com/61020616/230742563-9783f805-dd60-4be7-9702-060fcd4df3df.png",
+			"title": "INSTA-Pharma",
+			"description": "INSTA-Pharma is a clone of an a healthcare platform 1mg, it provides services, including e-pharmacy, diagnostics, e-consultation and health content",
+			"techStacks": [
+				{
+					"id": "t1",
+					"src": "https://lh3.googleusercontent.com/1ZPUcY76TcoA-qYiCXERe4lTj6FoJgXDR_5_-aFYI78tXYGUp5hmLxJdlbgnbh_lpHg=w2400",
+					"title": "JavaScript"
+				},
+				{
+					"id": "t2",
+					"src": "https://lh5.googleusercontent.com/NNYMLTcl7nPRNkNErJz17gHsCD8KsXkHGmuXyxwdftUB9QURREAPClWjk7YCLKd_jKs=w2400",
+					"title": "HTML"
+				},
+				{
+					"id": "t3",
+					"src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400",
+					"title": "CSS"
+				},
+				{
+					"id": "t4",
+					"src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400",
+					"title": "Mock Api"
+				},
+				{
+					"id": "t5",
+					"title": "Local Storage"
+				}
+			],
+			"github": "https://github.com/Rdev921/incompetent-coil-1138",
+			"deploy": "https://subtle-hamster-2b0f4a.netlify.app/"
+		}
+	]
+}

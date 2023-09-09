@@ -1,68 +1,71 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
-import { Tooltip } from 'react-tooltip'
+import { Tooltip as ReactTooltip } from "react-tooltip";
 import "./calender.css";
 
 function Calender() {
-  const selectLast12Months = (contributions) => {
-    const today = new Date();
-    const startTimestamp = new Date(
-      today.getFullYear(),
-      today.getMonth() - 11,
-      1
-    ).getTime();
-    const endTimestamp =
-      new Date(today.getFullYear(), today.getMonth() + 1, 1).getTime() - 1;
+	const selectLast12Months = (contributions) => {
+		const today = new Date();
+		const startTimestamp = new Date(
+			today.getFullYear(),
+			today.getMonth() - 11,
+			1
+		).getTime();
+		const endTimestamp =
+			new Date(today.getFullYear(), today.getMonth() + 1, 1).getTime() - 1;
 
-    return contributions.filter((day) => {
-      const contributionTimestamp = new Date(day.date).getTime();
+		return contributions.filter((day) => {
+			const contributionTimestamp = new Date(day.date).getTime();
 
-      return (
-        contributionTimestamp >= startTimestamp &&
-        contributionTimestamp <= endTimestamp
-      );
-    });
-  };
+			return (
+				contributionTimestamp >= startTimestamp &&
+				contributionTimestamp <= endTimestamp
+			);
+		});
+	};
 
-  return (
-    <div className="github-main">
-      <h1 className="github-heading">GitHub</h1>
-      <div className="github-calender">
-        <GitHubCalendar
-          className="react-activity-calendar"
-          transformData={selectLast12Months}
-          username="Rdev921"
-          color={"red"}
-          blockSize={14}
-          fontSize={20}
-          showColorLegend
-          hideTotalCount
-        >
-          <Tooltip delayShow={20} html />
-        </GitHubCalendar>
-      </div>
-      <div className="github-stats">
-        <div>
-          <img
-            src="https://github-readme-streak-stats.herokuapp.com/?user=rdev921&"
-            id="github-streak-stats"
-          />
-        </div>
-        <div>
-          <img
-            src="https://camo.githubusercontent.com/c55882aa8c64bd4dfad49ae6a5afb3c7e46be79899dd385946f8ffb57e639145/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67733f757365726e616d653d726465763932312673686f775f69636f6e733d74727565266c6f63616c653d656e266c61796f75743d636f6d70616374"
-            id="github-top-langs"
-          />
-        </div>
-        <div>
-          <img
-            src="https://camo.githubusercontent.com/f09182a711e7bab3ff3924a9d40c369ac5c77cdeca500075bc63a7875204f60b/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d726465763932312673686f775f69636f6e733d74727565266c6f63616c653d656e"
-            id="github-stats-card"
-          />
-        </div>
-      </div>
-    </div>
-  );
+	return (
+		<div className="github-main">
+			<h1 className="github-heading">Github</h1>
+			<div className="github-calender">
+				<GitHubCalendar
+					className="github-calendar-class"
+					transformData={selectLast12Months}
+					username="uzairansari11"
+					color={"teal"}
+					blockSize={16}
+					fontSize={18}
+					showColorLegend
+					hideTotalCount
+				>
+					<ReactTooltip delayShow={20} html />
+				</GitHubCalendar>
+			</div>
+			<div className="github-stats">
+				<div id="github-streak">
+					<img
+						src="https://github-readme-streak-stats.herokuapp.com?user=uzairansari11&theme=transparent&hide_border=true&border_radius=4.3&date_format=%5BY%20%5DM%20j&sideNums=008080&fire=008080&ring=008080&currStreakNum=008080&currStreakLabel=008080&sideLabels=008080&dates=008080&background=a6d2f0"
+						alt="Uzair Stats"
+						id="github-streak-stats"
+					/>
+				</div>
+				<div id="github-language">
+					<img
+						src="https://github-readme-stats.vercel.app/api/top-langs/?username=uzairansari11&layout=compact&langs_count=4&bg_color=a6d2f0&hide_border=true&text_color=008080&title_color=008080"
+						alt="Uzair Stats"
+						id="github-top-langs"
+					/>
+				</div>
+				<div id="github-streak-status">
+					<img
+						src="https://github-readme-stats.vercel.app/api?username=uzairansari11&theme=transparent&show_icons=true&bg_color=a6d2f0&hide_border=true&text_color=008080&title_color=008080&icon_color=008080"
+						alt="Uzair Stats"
+						id="github-stats-card"
+					/>
+				</div>
+			</div>
+		</div>
+	);
 }
 
 export default Calender;

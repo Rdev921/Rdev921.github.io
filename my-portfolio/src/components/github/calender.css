@@ -1,58 +1,129 @@
 .github-main {
-    /* border: 1px solid red; */
-    background-color: #000000;
-    padding: 2px 0px 30px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .github-heading {
-    font-size: 40px;
-    color: #ffffff;
-  }
-  
-  .github-stats {
-    /* border: 1px solid red; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2%;
-    width: 75%;
-  }
-  
-  /* meidum screens */
-  @media all and (min-width: 768px) and (max-width: 1024px) {
-    .github-calender {
-      width: 90%;
-      height: auto;
-    }
-  
-    .github-stats {
-      display: flex;
-      flex-direction: column;
-      gap: 40px;
-      justify-content: space-between;
-      align-items: center;
-      width: 90%;
-    }
-  }
-  
-  /* small screens */
-  @media all and (min-width: 280px) and (max-width: 767px) {
-    .github-calender {
-      width: 90%;
-      height: auto;
-    }
-  
-    .github-stats {
-      display: flex;
-      flex-direction: column;
-      gap: 40px;
-      justify-content: space-between;
-      align-items: center;
-      width: 90%;
-    }
-  }
+	background-color: #e0eff8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.github-heading {
+	text-align: center;
+	font-weight: 500;
+	font-size: xx-large;
+	text-decoration: underline teal;
+	text-underline-offset: 10px;
+	margin-bottom: 20px;
+	padding: 14px;
+
+}
+
+.github-calender {
+	padding: 2%;
+	width: 80%;
+	margin: auto;
+	border-radius: 8px;
+	margin-bottom: 2%;
+	background-color: rgb(166, 210, 240);
+}
+
+.github-calendar-class {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.github-calendar-class .calendar-graph {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+	box-sizing: content-box;
+}
+
+.github-stats {
+	background-color: rgb(166, 210, 240);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	min-height: 250px;
+	/* Updated: Changed height to min-height */
+	border-radius: 8px;
+}
+
+#github-streak,
+#github-language,
+#github-streak-status {
+	width: 100%;
+	height: 100%;
+}
+
+/* Medium screens */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+	.github-calender,
+	.github-stats {
+		width: 90%;
+		margin-bottom: 6%;
+	}
+
+	.github-stats {
+		background-color: rgb(224, 239, 248);
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		height: auto;
+	}
+
+	#github-streak,
+	#github-language,
+	#github-streak-status {
+		display: flex;
+		justify-content: space-around;
+		margin: auto;
+		border-radius: 8px;
+	}
+
+	#github-streak>img,
+	#github-language>img,
+	#github-streak-status>img {
+		width: 100%;
+	}
+}
+
+/* Small screens */
+@media all and (max-width: 767px) {
+	.github-calender {
+		width: 90%;
+		margin-bottom: 6%;
+		display: flex;
+		align-items: center;
+	}
+
+	.github-stats {
+		background-color: rgb(224, 239, 248);
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		justify-content: space-between;
+		align-items: center;
+		width: 90%;
+		height: auto;
+	}
+
+	#github-streak,
+	#github-language,
+	#github-streak-status {
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+		margin: auto;
+		border-radius: 8px;
+	}
+
+	#github-streak>img,
+	#github-language>img,
+	#github-streak-status>img {
+		width: 100%;
+	}
+}

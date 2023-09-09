@@ -22,7 +22,7 @@ function Home () {
           Aspiring Full Stack Web Developer Skilled in MERN stack with hands-on experience in developing scalable websites using a wide range of Front-end and Back-end skills like HTML, CSS, JavaScript, React, Redux, MongoDB, and Node JS. Looking forward to joining a progressive organization with opportunities to work on challenging projects.
           </div>
           </div>
-          <a
+          <a href="https://drive.google.com/uc?id=1cDaJNw_WaXS3zt0xkyOmiOeP99g91nY0&export=download"
             id="resume-link-2"
           >
             <div
@@ -34,7 +34,7 @@ function Home () {
               className="home-resume"
               id="resume-button-2"
             >
-              Resume <HiDownload />
+              Resume
             </div>
           </a>
         </div>

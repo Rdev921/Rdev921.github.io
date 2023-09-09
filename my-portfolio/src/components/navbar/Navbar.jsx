@@ -95,7 +95,7 @@ function Navbar() {
           </div>
           <div>
           
-          <a
+          <a href="https://drive.google.com/uc?id=1cDaJNw_WaXS3zt0xkyOmiOeP99g91nY0&export=download"
               className="nav-link resume"
               id="resume-link-1"
             >
@@ -150,7 +150,7 @@ function Navbar() {
                   </div>
                   <div>
                     <Link
-                      to="#"
+                      to="skills"
                       smooth={true}
                       offset={-50}
                       duration={500}
@@ -193,7 +193,7 @@ function Navbar() {
                     </Link>
                   </div>
                   <div>
-                  <a >
+                  <a href="https://drive.google.com/uc?id=1cDaJNw_WaXS3zt0xkyOmiOeP99g91nY0&export=download">
                       <div
                         className="navbar-resume"
                         onClick={() => {

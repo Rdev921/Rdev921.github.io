@@ -1,12 +1,11 @@
 
 .navbar {
     width: 100%;
-    background-color: rgb(69, 221, 255);
+    background-color: rgb(166,210,240);
     position: fixed;
     z-index: 100;
     font-size: 18px;
     height: 50px;
-    color: white;
   }
   
   .wrapper {
@@ -33,26 +32,25 @@
   }
   
   .wrapperRight {
-    /* border: 1px solid red; */
     margin-right: 40px;
     display: flex;
+    font-weight: bold;
     justify-content: space-around;
     align-items: center;
     width: 60%;
 
   }
   .wrapperRight > div {
-    /* border: 1px solid red; */
     border-radius: 5px;
     transition: all 0.5s ease-in-out;
     padding: 6px 10px;
-    font-weight: 600;
+    font-weight: bold;
   }
   .wrapperRight > :nth-child(7) {
-    /* border: 1px solid green; */
     border-radius: 5px;
     transition: all 0.5s ease-in-out;
     padding: 0 10px;
+    
    
   }
   

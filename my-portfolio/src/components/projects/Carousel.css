@@ -1,0 +1,87 @@
+.project-carousel-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 20px;
+	width: 95%;
+	height: 485px;
+	box-sizing: border-box;
+	background-color: rgb(166, 210, 240);
+	margin: auto;
+	border-radius: 8px;
+}
+
+.project-image {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.project-title {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.project-description {
+	font-size: 14px;
+	text-align: justify;
+	text-justify: inter-word;
+	margin-bottom: 10px;
+}
+
+.project-techstacks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.tech-stack {
+	background-color: #f5f5f5;
+	color: #333;
+	padding: 4px 8px;
+	font-size: 12px;
+	margin: 4px;
+	border-radius: 4px;
+}
+
+.project-buttons {
+	display: flex;
+	justify-content: center;
+}
+
+.project-buttons a {
+	margin: 0 10px;
+	padding: 8px 16px;
+	border: 1px solid #333;
+	border-radius: 4px;
+	text-decoration: none;
+	color: #333;
+	font-size: 14px;
+	transition: background-color 0.3s ease;
+}
+
+.project-buttons a:hover {
+	background-color: teal;
+	color: #fff;
+}
+
+.slide-buttons-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.slide-button {
+	width: 20px;
+	height: 10px;
+	border-radius: 5px;
+
+	background-color: white;
+	margin: 5px;
+}
+
+.slide-button.active {
+	background-color: teal;
+}
